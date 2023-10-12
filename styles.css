@@ -1,0 +1,10 @@
+.body-class {background:ivory; color:black}
+.header-class {background:rgba(189, 139, 13, 0.603); color:maroon; text-decoration: underline; text-align: center;}
+.nav-class {background-color: rgba(189, 139, 13, 0.603); color: maroon; font-weight: bold;}
+.title-class {color:maroon; text-decoration: underline; text-align: center; text-decoration: underline;} 
+.section-title-class {color: rgb(170, 24, 53); text-align: center; text-decoration: underline;}
+.text-class {color:rgb(16, 3, 19);}
+.image-class {border: 5px solid; border-color: rgba(189, 139, 13, 0.603); display: block; margin-left: auto; margin-right: auto; width: 50%;}
+.form-class {background-color:rgba(189, 139, 13, 0.603); color:maroon;}
+.button-class {background-color: maroon; color: rgb(189, 139, 13);}
+.footer-class {background-color: rgba(189, 139, 13, 0.603); color: black; font-weight: bold;}
