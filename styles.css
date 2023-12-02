@@ -1,10 +1,29 @@
-.body-class {background:ivory; color:black}
-.header-class {background:rgba(189, 139, 13, 0.603); color:maroon; text-decoration: underline; text-align: center;}
-.nav-class {background-color: rgba(189, 139, 13, 0.603); color: maroon; font-weight: bold;}
-.title-class {color:maroon; text-decoration: underline; text-align: center; text-decoration: underline;} 
-.section-title-class {color: rgb(170, 24, 53); text-align: center; text-decoration: underline;}
-.text-class {color:rgb(16, 3, 19);}
-.image-class {border: 5px solid; border-color: rgba(189, 139, 13, 0.603); display: block; margin-left: auto; margin-right: auto; width: 50%;}
-.form-class {background-color:rgba(189, 139, 13, 0.603); color:maroon;}
-.button-class {background-color: maroon; color: rgb(189, 139, 13);}
-.footer-class {background-color: rgba(189, 139, 13, 0.603); color: black; font-weight: bold;}
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;text-align:center}
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+div#header{background-color:#F3F2ED;}
+div#header_h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
+div#container{text-align:left}
+div#content_p{line-height:1.4}
+div#navigation{background:#F6F0E0;}
+div#navigation_ul{margin:15px 0; padding:0; list-style-type:none;}
+div#navigation_li{margin-bottom:5px;}
+div#extra{background:#CCC8B3;}
+div#footer{background:#BFBD93;}
+div#footer_p{margin:0;padding:5px 10px}
+div#container{width:700px;margin:0 auto}
+div#content{float:left;width:500px}
+div#navigation{float:right;width:200px}
+div#extra{float:right;clear:right;width:200px}
+div#footer{clear:both;width:100%}
+
+.tab {overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1;}
+.tab button {background-color: inherit; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s;}
+.tab button:hover {background-color: #ddd;}
+.tab button.active {background-color: #ccc;}
+.tabcontent {display: none; padding: 6px 12px; border: 1px solid #ccc; border-top: none;}
+
+.modal {display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4);}
+.modal-content {background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%;}
+.close {color: #aaa; float: right; font-size: 28px; font-weight: bold;}
